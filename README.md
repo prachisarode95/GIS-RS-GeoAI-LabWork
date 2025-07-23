@@ -30,11 +30,8 @@ This lab brings together GIS, remote sensing, and GeoAI techniques using Python 
 | Folder | Description |
 |--------|-------------|
 |`notebooks/`|Main GeoAI workflows in Colab notebooks|
-|`scripts/`|Python helper functions and pipelines|
-|`data/`|Links or instructions to download sample datasets|
 |`outputs/`|Predictions, segmented images, and maps|
 |`models/`|Saved model files (optional download links)|
-|`docs/`|Project writeups, QA checklists, and resources|
 
 ---
 
@@ -78,23 +75,12 @@ gis-rs-geoai-lab/
 │   ├── lidar_annotation_pdal.ipynb
 │   └── opencv_rs_image_processing.ipynb
 │
-├── data/                             # Sample or linked data sources (small test sets or links)
-│   └── README.md                        # Instructions to download data (e.g., GEE, open LiDAR sets)
-│
-├── scripts/                          # Python scripts or utility functions
-│   ├── preprocess_utils.py
-│   ├── annotation_pipeline.py
-│   └── model_utils.py
-│
 ├── outputs/                          # Sample outputs like maps, model predictions, or masks
 │   ├── segmented_buildings.png
 │   └── lidar_ground_classification.laz
 │
 ├── models/                           # Saved model files or links to Google Drive/Weights
 │   └── unet_building_segmentation.pt
-│
-├── docs/                             # Diagrams, markdown files, design notes
-│   └── annotation_QA_checklist.md
 │
 ├── requirements.txt                  # All required packages and versions
 ├── environment.yml                   # Optional conda env (if applicable)

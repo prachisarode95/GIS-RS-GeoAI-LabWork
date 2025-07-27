@@ -11,7 +11,7 @@ This lab brings together GIS, remote sensing, and GeoAI techniques using Python 
 - LiDAR point cloud annotation with PDAL
 - Satellite image classification with PyTorch + TorchGeo
 - Remote sensing visualization using geemap and Google Earth Engine (Python API)
-- Classic digital image processing with OpenCV
+- Digital image processing with OpenCV
 
 ---
 
@@ -25,17 +25,7 @@ This lab brings together GIS, remote sensing, and GeoAI techniques using Python 
 
 ---
 
-## Project Structure
-
-| Folder | Description |
-|--------|-------------|
-|`notebooks/`|Main GeoAI workflows in Colab notebooks|
-|`outputs/`|Predictions, segmented images, and maps|
-|`models/`|Saved model files (optional download links)|
-
----
-
-## Notebooks Included
+## Notebooks will include
 
 - `geemap_workflow.ipynb`: Visualizing and preparing RS data using geemap & GEE Python API  
 - `samgeo_segmentation.ipynb`: Auto-labeling with Segment Anything on satellite images  
@@ -63,27 +53,3 @@ This repo is built using knowledge and techniques from:
 - Deliver reproducible pipelines using open-source GeoAI tools
 
 ---
-
-# Folder Structure
-```
-gis-rs-geoai-lab/
-│
-├── notebooks/                        # Colab or Jupyter notebooks for each workflow
-│   ├── geemap_workflow.ipynb
-│   ├── samgeo_segmentation.ipynb
-│   ├── geoai_model_training.ipynb
-│   ├── lidar_annotation_pdal.ipynb
-│   └── opencv_rs_image_processing.ipynb
-│
-├── outputs/                          # Sample outputs like maps, model predictions, or masks
-│   ├── segmented_buildings.png
-│   └── lidar_ground_classification.laz
-│
-├── models/                           # Saved model files or links to Google Drive/Weights
-│   └── unet_building_segmentation.pt
-│
-├── requirements.txt                  # All required packages and versions
-├── environment.yml                   # Optional conda env (if applicable)
-├── README.md                         # Project overview and guide
-└── LICENSE                           # Optional (MIT or CC-BY recommended)
-```
